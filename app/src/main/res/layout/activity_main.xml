@@ -27,6 +27,6 @@
         android:text="New Picture"
         android:id="@+id/open_cam"
         android:layout_below="@+id/grid"
-        android:layout_centerHorizontal="jjjtrue"
+        android:layout_centerHorizontal="true"
         />
 </RelativeLayout>
