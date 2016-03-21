@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:src="@drawable/s1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/imageView2"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to everything "
+        android:id="@+id/textView2"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SIA"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:textSize="70dp"
+        android:textColor="#f7fa05" />
+</LinearLayout>
